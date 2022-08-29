@@ -11,6 +11,7 @@
 		FA2E292928BCFE8000549EB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2E292828BCFE8000549EB9 /* ContentView.swift */; };
 		FA2E292B28BCFE8400549EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2E292A28BCFE8400549EB9 /* Assets.xcassets */; };
 		FA2E292E28BCFE8400549EB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2E292D28BCFE8400549EB9 /* Preview Assets.xcassets */; };
+		FA2E293828BD028100549EB9 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2E293728BD028100549EB9 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FA2E292828BCFE8000549EB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA2E292A28BCFE8400549EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2E292D28BCFE8400549EB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA2E293728BD028100549EB9 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		FA2E292528BCFE8000549EB9 /* Noter */ = {
 			isa = PBXGroup;
 			children = (
+				FA2E293628BD025600549EB9 /* ViewModels */,
+				FA2E293428BD01B300549EB9 /* UI */,
 				FA2E292628BCFE8000549EB9 /* NoterApp.swift */,
 				FA2E292828BCFE8000549EB9 /* ContentView.swift */,
 				FA2E292A28BCFE8400549EB9 /* Assets.xcassets */,
@@ -65,6 +69,29 @@
 				FA2E292D28BCFE8400549EB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA2E293428BD01B300549EB9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FA2E293528BD01CF00549EB9 /* Auth */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FA2E293528BD01CF00549EB9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FA2E293628BD025600549EB9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA2E293728BD028100549EB9 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			files = (
 				FA2E292928BCFE8000549EB9 /* ContentView.swift in Sources */,
 				FA2E292728BCFE8000549EB9 /* NoterApp.swift in Sources */,
+				FA2E293828BD028100549EB9 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
